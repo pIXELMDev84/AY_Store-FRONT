@@ -1,0 +1,240 @@
+.navbar h2 {
+  margin: 0;
+}
+
+.navbar button:hover {
+  background-color: #fa512f;
+}
+.navbar {
+  position: relative;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  box-shadow: 0px 5px 5px #FB3E17;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar button {
+  padding: 8px 16px;
+  border: none;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #FB3E17;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar button:hover {
+  background-color: #fa512f;
+}
+
+.navbar .profile-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.navbar .profile-icon-container:hover {
+  background-color: #e0e0e0;
+}
+.navbar .logo {
+  width: 250px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.navbar .profile-icon-container .icon {
+  font-size: 1.5rem; /* Taille de l'icône */
+}
+.navbar .product-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.navbar .product-icon-container:hover {
+  background-color:  #e0e0e0;
+}
+
+.navbar .menu {
+  display: flex;
+  align-items: center;
+}
+.navbar .menu button {
+  color: black;
+}
+.navbar .logout-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.navbar .logout-icon-container:hover {
+  background-color: #e0e0e0;
+}
+.navbar .icon-container,
+.navbar .logout-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  margin-right: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.navbar .icon-container:hover,
+.navbar .logout-icon-container:hover {
+  background-color: #e0e0e0;
+}
+.cart-dropdown {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  z-index: 1000;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.cart-dropdown h3 {
+  margin: 0 0 10px 0;
+}
+
+.cart-dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart-dropdown ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.cart-dropdown ul li:last-child {
+  border-bottom: none;
+}
+.icon-container {
+  position: relative;
+}
+.cart-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 3px;
+  font-size: 14px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-dropdown {
+  position: fixed;
+  top: 15%; 
+  right: 0;
+}
+.checkout-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+}
+
+.checkout-button:hover {
+  background-color: #45a049;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-right: 20px;
+}
+
+.search-bar input[type="text"] {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  outline: none;
+  width: 500px;
+  font-size: 18px;
+  padding-left: 55px;
+}
+
+.search-bar input[type="text"]:focus {
+  border-color: #fa291a;
+}
+
+.search-bar button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.search-bar button:hover {
+  background-color: #0056b3;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+
+.search-icon svg {
+  font-size: 24px;
+  margin-right: 10px;
+}
